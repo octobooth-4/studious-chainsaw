@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Coffee Shops in Your Area</h1>
+        <form id="location-form">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip">
+            <button type="submit">Search</button>
+        </form>
+        <div id="coffee-shops"></div>
+        <div id="map"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
